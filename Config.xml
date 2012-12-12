@@ -1,0 +1,3454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NODES_OPERATIONS>
+  <Call Module="Reflection" Operation="DeleteCustom"/>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="17">
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berMaterialFilter"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="17">
+      <string>Bamboo Charcoal</string>
+      <string>Corduroy</string>
+      <string>Cotton</string>
+      <string>Denim</string>
+      <string>Drip Dry Cotton</string>
+      <string>Flanel</string>
+      <string>Fleece</string>
+      <string>High Visibiity Fabric</string>
+      <string>Leather</string>
+      <string>Microfiber</string>
+      <string>Moleskin</string>
+      <string>Polypropilene</string>
+      <string>Silk</string>
+      <string>Technical Fabric</string>
+      <string>Waxed Cotton</string>
+      <string>Wool</string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="30">
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="DevtType"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="30">
+      <string>1</string>
+      <string>2</string>
+      <string>3</string>
+      <string>4</string>
+      <string>5</string>
+      <string>6</string>
+      <string>7</string>
+      <string>8</string>
+      <string>9</string>
+      <string>10</string>
+      <string>11</string>
+      <string>12</string>
+      <string>13</string>
+      <string>14</string>
+      <string>15</string>
+      <string>16</string>
+      <string>17</string>
+      <string>18</string>
+      <string>19</string>
+      <string>20</string>
+      <string>21</string>
+      <string>22</string>
+      <string>23</string>
+      <string>24</string>
+      <string>25</string>
+      <string>26</string>
+      <string>27</string>
+      <string>28</string>
+      <string>29</string>
+      <string>30</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="false"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="3">
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berPhaseInOut"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="3">
+      <string></string>
+      <string>Phase In</string>
+      <string>Phase Out</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="3">
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berCurrency"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="3">
+      <string>Euro</string>
+      <string>US Dollar</string>
+      <string>British Sterling</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="5">
+      <string></string>
+      <string></string>
+      <string>French</string>
+      <string>German</string>
+      <string>Russian</string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berLanguage"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="5">
+      <string>English</string>
+      <string>Italian</string>
+      <string>French</string>
+      <string>German</string>
+      <string>Russian</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="17">
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berMarket"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="17">
+      <string>Not Defined</string>
+      <string>Italian</string>
+      <string>English</string>
+      <string>French</string>
+      <string>German</string>
+      <string>Not Defined</string>
+      <string>Italian</string>
+      <string>English</string>
+      <string>French</string>
+      <string>German</string>
+      <string>Not Defined</string>
+      <string>Italian</string>
+      <string>English</string>
+      <string>French</string>
+      <string>German</string>
+      <string>Russian</string>
+      <string>United States</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="68">
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berProductCategory"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="68">
+      <string></string>
+      <string>Backpacks</string>
+      <string>Bags</string>
+      <string>Barrel Rests</string>
+      <string>Belt Keepers</string>
+      <string>Belts</string>
+      <string>Books</string>
+      <string>Breeks</string>
+      <string>Brushes &amp; Mops</string>
+      <string>Cap</string>
+      <string>Capes</string>
+      <string>Cartridge Bags &amp; Cases</string>
+      <string>Cartridge Belts</string>
+      <string>Cartridge Wallets</string>
+      <string>Cleaning Kits</string>
+      <string>Cleaning Rods</string>
+      <string>Cleaning Ropes</string>
+      <string>Coat</string>
+      <string>Down Jackets &amp; Vests</string>
+      <string>Dresses</string>
+      <string>Eyeglasses</string>
+      <string>Fixed Blade Knives</string>
+      <string>Flasks</string>
+      <string>Folding Blade Knives</string>
+      <string>Gloves</string>
+      <string>Gun Cases &amp; Sleeves</string>
+      <string>Handcuff Holders</string>
+      <string>Holster</string>
+      <string>Jacket</string>
+      <string>Lighters</string>
+      <string>Locks</string>
+      <string>Lubrificants, Oil &amp; Cleaners</string>
+      <string>Magazine Holsters</string>
+      <string>Mugs - Thermos</string>
+      <string>Pants</string>
+      <string>Paper Knives</string>
+      <string>Pens</string>
+      <string>Pistol Rugs &amp; Cases</string>
+      <string>Polo &amp; Tees</string>
+      <string>Position Makers</string>
+      <string>Pouches</string>
+      <string>Recoil Pads</string>
+      <string>Rubber Boots</string>
+      <string>Safety Lace</string>
+      <string>Scarf</string>
+      <string>Shirt</string>
+      <string>Shoes</string>
+      <string>Shooting Earmuffs</string>
+      <string>Shooting Towels</string>
+      <string>Shoulder Harness</string>
+      <string>Skirt</string>
+      <string>Slings</string>
+      <string>Snap Caps</string>
+      <string>Soles</string>
+      <string>Sponges &amp; Clothes</string>
+      <string>Sweater &amp; Fleece</string>
+      <string>Sweatshirt</string>
+      <string>Tactical BeltS</string>
+      <string>Tactical Knives</string>
+      <string>Tech Underwear &amp; Socks</string>
+      <string>Tie</string>
+      <string>Tools Knives</string>
+      <string>Trays</string>
+      <string>Umbrellas</string>
+      <string>Vest</string>
+      <string>Wallets &amp; Money Clips</string>
+      <string>Watches</string>
+      <string>Bermuda</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="6">
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berTypeOfShooting"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="6">
+      <string></string>
+      <string>1</string>
+      <string>2</string>
+      <string>3</string>
+      <string>4</string>
+      <string>5</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="2">
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berCBStyleType"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="2">
+      <string></string>
+      <string>Accessory</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="5">
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berCarryOver"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="5">
+      <string></string>
+      <string>CarryOver</string>
+      <string>New</string>
+      <string>New Color</string>
+      <string>New SS13</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="6">
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berLayer"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="6">
+      <string>Clothing Accessories</string>
+      <string>First</string>
+      <string>Second</string>
+      <string>Third</string>
+      <string>Outer</string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="9">
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berIdealFor"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="9">
+      <string></string>
+      <string>All Purpose</string>
+      <string>Big Game</string>
+      <string>Skeet</string>
+      <string>Sporting</string>
+      <string>Trap</string>
+      <string>Trap/Sporting</string>
+      <string>Upland</string>
+      <string>Waterfowler</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="3">
+      <string>White</string>
+      <string>Grey</string>
+      <string>Black</string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="CustomCollectionBackgroundColor"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="3">
+      <string>CustomCollectionBackgroundColor:0</string>
+      <string>CustomCollectionBackgroundColor:1</string>
+      <string>CustomCollectionBackgroundColor:2</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value="Custom Collection BackgroundColor"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreEnum">
+    <Parameter Id="ValueDescriptions" Type="stringlist" ListRes="4">
+      <string></string>
+      <string></string>
+      <string></string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="Name" Type="string" Value="berGender"/>
+    <Parameter Id="Values" Type="stringlist" ListRes="4">
+      <string></string>
+      <string>M</string>
+      <string>F</string>
+      <string>U</string>
+    </Parameter>
+    <Parameter Id="ClearValues" Type="boolean" Value="true"/>
+    <Parameter Id="Description" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berMSRP_Rus"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berMSRP_Rus"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berLayer"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berLayer"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="enum"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="enum" Value="berLayer:"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berProductCategory"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berProductCategory"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="enum"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="enum" Value="berProductCategory:"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCallout_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berCallout_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCallout"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berCallout"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCallout_Fre"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berCallout_Fre"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berProductCare_Eng"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berProductCare_Eng"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berWeight"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berWeight"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDisplaySequence"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDisplaySequence"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="integer"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="integer" Value="0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berWSP_Ger"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berWSP_Ger"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berMSRP_Fre"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berMSRP_Fre"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDimensions_Eng"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDimensions_Eng"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDimensions_Fre"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDimensions_Fre"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDimensions_Ger"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDimensions_Ger"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berWSP_Fre"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berWSP_Fre"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berNotes"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berNotes"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berProductCare"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berProductCare"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDimensions"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDimensions"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="Localized"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berMSRP_Eng"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berMSRP_Eng"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berProductCare_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berProductCare_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDimensions_Rus"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDimensions_Rus"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berProductCare_Fre"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berProductCare_Fre"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berMSRP_Ger"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berMSRP_Ger"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berHasSizes"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berHasSizes"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="boolean"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="boolean" Value="false"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Rus"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Rus"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDimensions_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDimensions_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berProductCare_Rus"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berProductCare_Rus"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCallout_Eng"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berCallout_Eng"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCallout_Rus"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berCallout_Rus"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCarryOver"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berCarryOver"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="enum"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="enum" Value="berCarryOver:New"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berNotes_Ger"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berNotes_Ger"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDisplayOrder"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+    <Parameter Id="Id" Type="string" Value="berDisplayOrder"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="integer"/>
+    <Parameter Id="Expression" Type="string"><![CDATA[block(
+    st   = berDisplaySequence,
+    col  = __Parent__.Collection.Attributes.berDisplaySequence * 	10000,
+    cat2 = __Parent__.Category2.Attributes.berDisplaySequence * 	100000,
+    cat1 = __Parent__.Category1.Attributes.berDisplaySequence * 	1000000,
+    ps   = __Parent__.ParentSeason.Attributes.berDisplaySequence * 	10000000,
+    do   = ps + cat1 + cat2 + col + st
+)]]></Parameter>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="integer" Value="0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Ger"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Ger"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berPiecesPerBox"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berPiecesPerBox"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="integer"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="integer" Value="0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berNotes_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berNotes_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berGender"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berGender"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="enum"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="enum" Value="berGender:"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berWSP_Rus"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berWSP_Rus"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Eng"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Eng"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Fre"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Fre"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berPhaseInOut"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berPhaseInOut"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="enum"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="enum" Value="berPhaseInOut:"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berWSP_Eng"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berWSP_Eng"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berNotes_Fre"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berNotes_Fre"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berNotes_Rus"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berNotes_Rus"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berIdealFor"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berIdealFor"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="enum"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="enum" Value="berIdealFor:"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCaliber"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berCaliber"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCallout_Ger"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berCallout_Ger"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berMSRP_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berMSRP_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berWSP_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berWSP_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berTypeOfShooting"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berTypeOfShooting"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="enum"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="enum" Value="berTypeOfShooting:"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berNotes_Eng"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berNotes_Eng"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="true"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berProductCare_Ger"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berProductCare_Ger"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreAttributeGroups">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style Attributes"/>
+    <Parameter Id="GroupMapping" Type="stringlist" ListRes="9">
+      <string>berProductCategory:berLayer:berIdealFor:berGender:berTypeOfShooting:berCarryOver</string>
+      <string>berWeight:berPiecesPerBox:berCaliber</string>
+      <string>berDescription_Eng:berDescription_Fre:berDescription_Ger:berDescription_Ita:berDescription_Rus</string>
+      <string>berCallout_Eng:berCallout_Fre:berCallout_Ger:berCallout_Ita:berCallout_Rus</string>
+      <string>berNotes_Eng:berNotes_Ita:berNotes_Ger:berNotes_Rus:berNotes_Fre</string>
+      <string>berProductCare_Eng:berProductCare_Fre:berProductCare_Ger:berProductCare_Ita:berProductCare_Rus</string>
+      <string>berMSRP_Ita:berMSRP_Eng:berMSRP_Fre:berMSRP_Ger:berMSRP_Rus:berWSP_Ita:berWSP_Eng:berWSP_Fre:berWSP_Ger:berWSP_Rus</string>
+      <string>berDimensions_Eng:berDimensions_Fre:berDimensions_Ger:berDimensions_Ita:berDimensions_Rus</string>
+      <string></string>
+    </Parameter>
+    <Parameter Id="GroupNames" Type="stringlist" ListRes="9">
+      <string>Details</string>
+      <string>Accessory Specific</string>
+      <string>Descriptions</string>
+      <string>Callouts</string>
+      <string>Notes</string>
+      <string>Product Care</string>
+      <string>Pricing</string>
+      <string>Dimensons</string>
+      <string>Filter Only</string>
+    </Parameter>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDisplaySequence"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Brand"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDisplaySequence"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="integer"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Brand"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="integer" Value="0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="SuggestedBuyerShipTo"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="SuggestedBuyerShipTo"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="SuggestedBuyerVATCode"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="SuggestedBuyerVATCode"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="SuggestedBuyerBillTo"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="SuggestedBuyerBillTo"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="Delivery"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="Delivery"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="SuggestedBuyer"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="SuggestedBuyer"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="Notes"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="Notes"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="suggestedPaymentTerm"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="suggestedPaymentTerm"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="SalesOrderNote"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="SalesOrderNote"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order"/>
+    <Parameter Id="Id" Type="string" Value="SalesOrder/ControlNumber"/>
+    <Parameter Id="Expression" Type="string" Value="&quot;SO&quot; + format(&quot;{0,number,00000}&quot;,(uniqueKey(&quot;SalesOrder&quot;)))"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0xc001"/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Eng"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Eng"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Fre"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Fre"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berComposition"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berComposition"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value="Added to support free form entry"/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Rus"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Rus"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="Localized"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Ger"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Ger"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Attributes"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Id" Type="string" Value="MaterialAttributes/Composition"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDisplaySequence"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Department"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDisplaySequence"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="integer"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Department"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="integer" Value="0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="DiscountPct"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Customer"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="DiscountPct"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Customer"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="PaymentTerms"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Customer"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="PaymentTerms"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Customer"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="PaymentTerm"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Customer"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="PaymentTerm"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Customer"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="VATCode"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Customer"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="VATCode"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Customer"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Rus"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Rus"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Eng"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Eng"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Fre"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Fre"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Ger"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Ger"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value="Textarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway Attributes"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berMaterialFilter"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Material"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berMaterialFilter"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="enum"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Material"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="enum" Value="berMaterialFilter:"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Material"/>
+    <Parameter Id="Id" Type="string" Value="Material/Code"/>
+    <Parameter Id="Initial Value" Type="string" Value="----"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="true"/>
+    <Parameter Id="ValidationExpression" Type="string" Value="reMatch(value,&quot;.{4,4}&quot;)"/>
+    <Parameter Id="Required" Type="boolean" Value="true"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x2000000"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Material"/>
+    <Parameter Id="Id" Type="string" Value="Material/Node Name"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProductColor"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="MasterColor.berDescription"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProductColor"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berFabricColorCode"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Managed Color"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+    <Parameter Id="Id" Type="string" Value="berFabricColorCode"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value="__Parent__.Code + ColorSpecification.Code"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Managed Color"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Managed Color"/>
+    <Parameter Id="Id" Type="string" Value="ColorMaterial/Node Name"/>
+    <Parameter Id="Expression" Type="string" Value="__Parent__.Code + &quot; : &quot; + __Parent__.attr(&quot;Node Name&quot;) + &quot; :: &quot; + ColorSpecification.attr(&quot;Node Name&quot;)"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="BGColor"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/CustomSalesCollection"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="BGColor"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="enum"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/CustomSalesCollection"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="enum" Value="CustomCollectionBackgroundColor:CustomCollectionBackgroundColor:0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBusinessObject">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway"/>
+    <Parameter Id="DisplayNameAttribute2" Type="string" Value="Node Name"/>
+    <Parameter Id="DisplayNameAttribute1" Type="string" Value="Code"/>
+    <Parameter Id="DisplayNameSeparator" Type="string" Value=":"/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berReleaseToCollectionBook"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+    <Parameter Id="Id" Type="string" Value="berReleaseToCollectionBook"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="boolean"/>
+    <Parameter Id="Expression" Type="string" Value="Active"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="boolean" Value="false"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berUniqueCode"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berUniqueCode"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value="__Parent__.ParentSeason.Code + &quot;-&quot; + Code"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Id" Type="string" Value="Colorway/Description"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway"/>
+    <Parameter Id="Id" Type="string" Value="Colorway/Code"/>
+    <Parameter Id="Expression" Type="string" Value="__Parent__.Code + leftstr(attr(&quot;Node Name&quot;), find(attr(&quot;Node Name&quot;), &quot; : &quot;))"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway"/>
+    <Parameter Id="Id" Type="string" Value="Colorway/Node Name"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Colorway"/>
+    <Parameter Id="Id" Type="string" Value="Colorway/Active"/>
+    <Parameter Id="Expression" Type="string" Value="__Parent__.Active"/>
+    <Parameter Id="Notes" Type="string" Value="Active"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy, Season"/>
+    <Parameter Id="Id" Type="string" Value="Season/Code"/>
+    <Parameter Id="Required" Type="boolean" Value="true"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x2000000"/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProductColor"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="PCColorway.Attributes.berDescription"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProductColor"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCMaterial"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="MCMaterial.Attributes.berDescription"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCMaterial"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCopyImagesFromSource"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Library Colorway Color"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berCopyImagesFromSource"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="boolean"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Library Colorway Color"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="boolean" Value="true"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Library Colorway Color"/>
+    <Parameter Id="Id" Type="string" Value="ColorColorwayContext/Node Name"/>
+    <Parameter Id="Expression" Type="string" Value="Actual.attr(&quot;Node Name&quot;)"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy, Department"/>
+    <Parameter Id="Id" Type="string" Value="Category2/Node Name"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berPiecesPerBox"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berPiecesPerBox"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="integer"/>
+    <Parameter Id="Expression" Type="string" Value="MasterProduct.berPiecesPerBox"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="integer" Value="0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCallout"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berCallout"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="MasterProduct.berCallout"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCaliber"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berCaliber"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value="MasterProduct.berCaliber"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="MasterProduct.berDescription"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDimensions"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berDimensions"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="MasterProduct.berDimensions"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berNotes"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berNotes"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="MasterProduct.berNotes"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berProductCare"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berProductCare"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="MasterProduct.berProductCare"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/SMProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="DiscountPct"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order Line Item"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="DiscountPct"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="double"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order Line Item"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="double" Value="0.0"/>
+    <Parameter Id="Format" Type="string" Value="0.00%"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Sales Order Line Item"/>
+    <Parameter Id="Id" Type="string" Value="SalesOrderLineItem/TotalPrice"/>
+    <Parameter Id="Expression" Type="string" Value="Price*(1-DiscountPct)*TotalQuantity"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBusinessObject">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+    <Parameter Id="DisplayNameAttribute2" Type="string" Value="Code"/>
+    <Parameter Id="DisplayNameAttribute1" Type="string" Value="Node Name"/>
+    <Parameter Id="DisplayNameSeparator" Type="string" Value=":"/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berModel"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berModel"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value="reMatch(value,&quot;.{4,4}&quot;)"/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="true"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="true"/>
+    <Parameter Id="Initial Value" Type="string" Value="----"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berReleaseToCollectionBook"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+    <Parameter Id="Id" Type="string" Value="berReleaseToCollectionBook"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="boolean"/>
+    <Parameter Id="Expression" Type="string" Value="Active"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="boolean" Value="false"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berUniqueCode"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+    <Parameter Id="Id" Type="string" Value="berUniqueCode"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value="ParentSeason.Code + &quot;-&quot; + Code"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+    <Parameter Id="Id" Type="string" Value="Style/Code"/>
+    <Parameter Id="Expression" Type="string"><![CDATA[block(
+    if( berModel.find("-") == -1 && !MarketingMainMaterial.isNull(),
+        berModel + " " + MarketingMainMaterial.Code,
+        "--------"
+    )
+)]]></Parameter>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+    <Parameter Id="Id" Type="string" Value="Style/Active"/>
+    <Parameter Id="Notes" Type="string" Value="Active"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Id" Type="string" Value="Style/CarryOver"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreAttributeGroups">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Style"/>
+    <Parameter Id="GroupMapping" Type="stringlist" ListRes="1">
+      <string>Style/Node Name:berModel:Style/Theme:Style/Code:Style/CntColorway:Style/Active</string>
+    </Parameter>
+    <Parameter Id="GroupNames" Type="stringlist" ListRes="1">
+      <string>General</string>
+    </Parameter>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy, Collection"/>
+    <Parameter Id="Enabled" Type="boolean" Value="false"/>
+    <Parameter Id="Id" Type="string" Value="Collection/Description"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy, Collection"/>
+    <Parameter Id="Id" Type="string" Value="Collection/Node Name"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="Required" Type="boolean" Value="true"/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x2000000"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Item Template"/>
+    <Parameter Id="Id" Type="string" Value="StructItemNameCode/Description"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBusinessObject">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berImportCode"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+    <Parameter Id="Id" Type="string" Value="berImportCode"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string"><![CDATA[if(berUniqueCode.length()==8,
+    leftstr(berUniqueCode, 4) + "_" + rightstr(berUniqueCode, 4),
+    ""
+)]]></Parameter>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berColorName"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berColorName"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berUniqueCode"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4001"/>
+    <Parameter Id="Id" Type="string" Value="berUniqueCode"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string"><![CDATA[block(        
+    uniqueCode = berUniqueCode,
+    if(!isNull(__Parent__),
+        uniqueCode = __Parent__.__Parent__.__Parent__.OriginalMaterial.Code + Code,
+        if(Images.size() > 0,
+            block(
+                matCode = Images.first().string(),
+                matCode = substr(matCode, 4, 8),
+                uniqueCode = matCode + Code
+            ),
+            uniqueCode
+        )
+    )
+)]]></Parameter>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berColorName_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berColorName_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDisplaySequence"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Season"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDisplaySequence"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="integer"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Season"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="integer" Value="0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Rus"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Rus"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Eng"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Eng"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Ita"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Ita"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDisplaySequence"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDisplaySequence"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="integer"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="integer" Value="0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Fre"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Fre"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription_Ger"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription_Ger"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreAttributeGroups">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Hierarchy Attributes, Collection"/>
+    <Parameter Id="GroupMapping" Type="stringlist" ListRes="1">
+      <string>berDescription_Eng:berDescription_Fre:berDescription_Ger:berDescription_Rus:berDescription_Ita</string>
+    </Parameter>
+    <Parameter Id="GroupNames" Type="stringlist" ListRes="1">
+      <string>Description</string>
+    </Parameter>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berPiecesPerBox"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berPiecesPerBox"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="integer"/>
+    <Parameter Id="Expression" Type="string" Value="ProductStyle.Attributes.berPiecesPerBox"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="integer" Value="0"/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCallout"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berCallout"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="ProductStyle.Attributes.berCallout"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berCaliber"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berCaliber"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="string"/>
+    <Parameter Id="Expression" Type="string" Value="ProductStyle.Attributes.berCaliber"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="string" Value=""/>
+    <Parameter Id="Format" Type="string" Value=""/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+    <Parameter Id="Id" Type="string" Value="berDescription"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berProductCare"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berProductCare"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="ProductStyle.Attributes.berProductCare"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berDimensions"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berDimensions"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="ProductStyle.Attributes.berDimensions"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="CreateCustomAttribute">
+    <Parameter Id="Id" Type="string" Value="berNotes"/>
+    <Parameter Id="ParentURL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreCustomAttribute">
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x4000"/>
+    <Parameter Id="Id" Type="string" Value="berNotes"/>
+    <Parameter Id="Enabled" Type="boolean" Value="true"/>
+    <Parameter Id="Notes" Type="string" Value=""/>
+    <Parameter Id="ValidationExpression" Type="string" Value=""/>
+    <Parameter Id="CopyCategories" Type="enummap" ListRes="0"/>
+    <Parameter Id="Required" Type="boolean" Value="false"/>
+    <Parameter Id="Optional" Type="boolean" Value="false"/>
+    <Parameter Id="Value Type" Type="string" Value="stringmap"/>
+    <Parameter Id="Expression" Type="string" Value="ProductStyle.Attributes.berNotes"/>
+    <Parameter Id="CopyCategoriesLocked" Type="boolean" Value="false"/>
+    <Parameter Id="CreateOnly" Type="boolean" Value="false"/>
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+    <Parameter Id="FormOnly" Type="boolean" Value="false"/>
+    <Parameter Id="Initial Value" Type="stringmap" ListRes="0"/>
+    <Parameter Id="Format" Type="string" Value="LocalizedTextarea"/>
+    <Parameter Id="CopyOptionName" Type="string" Value=""/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreBuildInAttribute">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/MCProduct"/>
+    <Parameter Id="Id" Type="string" Value="MCProduct/Description"/>
+    <Parameter Id="Expression" Type="string" Value=""/>
+    <Parameter Id="Attribute Flags" Type="int64" Value="0x0"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreValidationRule">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Material Managed Color"/>
+    <Parameter Id="Id" Type="string" Value="Unique"/>
+    <Parameter Id="Expression" Type="string" Value="isUnique(ColorMaterial, berFabricColorCode, `Node Type`)"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreValidationRule">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Material"/>
+    <Parameter Id="Id" Type="string" Value="Unique"/>
+    <Parameter Id="Expression" Type="string" Value="isUnique(Material, Code, `Node Type`)"/>
+  </Call>
+  <Call Module="Reflection" Operation="RestoreValidationRule">
+    <Parameter Id="URL" Type="cnl" Value="centric://REFLECTION/BusinessObject/Library Item, Color Specification"/>
+    <Parameter Id="Id" Type="string" Value="Unique"/>
+    <Parameter Id="Expression" Type="string" Value="isUnique(ColorUnmanaged, Code, `Node Type`)"/>
+  </Call>
+</NODES_OPERATIONS>

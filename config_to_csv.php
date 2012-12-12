@@ -50,8 +50,6 @@ if(CLI === true || isset($_FILES['xmlfile']) ===  true){
 
     }
 
-
-
     $valueType = 'Value Type';
     foreach($xml->Call as $call){
         $operation = (String) $call->attributes()->Operation;
@@ -91,7 +89,7 @@ if(CLI === true || isset($_FILES['xmlfile']) ===  true){
 
     /* Extract attribute information for csv output
     --------------------------------*/
-    $createInfo = array();
+    $csvData = array();
     $columns = array('Enabled', 'URL', 'Id', 'Value Type', 'Format', 'Initial Value',  'Expression');
 
     foreach($restoreAttributes as $attribute){
@@ -109,18 +107,18 @@ if(CLI === true || isset($_FILES['xmlfile']) ===  true){
 
         }
 
-        $createInfo[] = $result;
+        $csvData[] = $result;
 
     }
 
     /* Output csv file
     --------------------------------*/
     if(CLI === true){
-        Csi_csv::saveCsv($columns, $createInfo, "attributes.csv");
+        Csi_csv::saveCsv($columns, $csvData, "attributes.csv");
         echo 'attributes.csv was updated';
 
     } else {
-        Csi_csv::outputCsv($columns, $createInfo, "attributes.csv");
+        Csi_csv::outputCsv($columns, $csvData, "attributes.csv");
 
     }
 
